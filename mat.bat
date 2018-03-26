@@ -3,5 +3,5 @@ echo off
 SET MATLABROOT="C:\Program Files\MATLAB\R2017a\bin"
 PATH=%MATLABROOT%;
 
-START matlab.exe -r C:\Users\cac32742\Desktop\test\TestModel\TestModelRun.m
-PAUSE
+matlab.exe  -nodisplay -nosplash -nodesktop -r "run C:\Users\cac32742\Desktop\test\TestModel\TestModelRun" -logfile C:\Users\cac32742\Desktop\test\TestModel\\logfile exit;
+exit
